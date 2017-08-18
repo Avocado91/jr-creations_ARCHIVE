@@ -111,6 +111,9 @@ hr {
 
 .jumbotron h3 {
   font-size: 1.2em;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 1.7;
 }
 
 /*************************************************

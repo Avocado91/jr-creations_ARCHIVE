@@ -13,8 +13,9 @@ body {
 }
 
 .title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 hr {
@@ -35,7 +36,6 @@ hr {
   padding: 0;
   margin: 0;
   border-radius: 0;
-  border-bottom: 1px solid #ddd;
   text-transform: uppercase;
 }
 
@@ -67,7 +67,6 @@ hr {
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
   color: white;
   background-color: #6B4C93;
-
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -88,9 +87,12 @@ hr {
 
 .jumbotron {
   text-align: center;
-  background: white;
-  margin-bottom: 100px;
-  color: #444;
+  background: url(https://cdn.pixabay.com/photo/2015/06/24/02/12/the-blurred-819392_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom ;
+  color: #eee;
+  height: 400px;
 }
 
 .jumbotron h1 {
@@ -108,23 +110,39 @@ hr {
 }
 
 /*************************************************
-                CUSTOM PROJECTS
+                    SHOWS
 *************************************************/
 
-.custom h2 {
-  padding-left: 0;
+.gallery img {
+  width: 100%;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3),
+               4px 4px 13px rgba(0, 0, 0, 0.1),
+               9px 9px 23px rgba(0, 0, 0, 0.1);}
+
+.project {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.project h2 {
   margin-bottom: 10px;
+  margin-top: 0;
   color: #444;
   font-size: 1.8em;
   text-transform: uppercase;
 }
 
-.custom hr {
+.project hr {
   color: rgba(87, 71, 150, 0.7);
   height: 2px;
-  width: 270px;
+  width: 230px;
   border: none;
-  margin: 0 0 30px 0;
+  margin: 0 auto 30px auto;
+}
+
+.project p {
+  font-size: 1em;
+  margin: 0 15% 50px 15%;
 }
 
 /*************************************************
@@ -133,7 +151,8 @@ hr {
 
 .footer {
   padding: 20px 0;
-  border-top: 1px solid #ddd
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
 }
 
 .footer h4 {
