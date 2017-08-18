@@ -1,0 +1,396 @@
+/*************************************************
+                      GENERAL
+*************************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Merriweather', serif;
+  color: #888;
+}
+
+.title {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+hr {
+  background-color: rgba(87, 71, 150, 0.7);
+  color: rgba(87, 71, 150, 0.7);
+  width: 30px;
+  height: 3px;
+  border: none;
+  margin: 20px auto 40px;
+}
+
+/*************************************************
+                      NAV
+*************************************************/
+.navbar-default {
+  background: white;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  padding: 10px 15px;
+}
+
+.navbar-default .navbar-brand img,
+.navbar-default .navbar-brand:focus img,
+.navbar-default .navbar-brand:hover img {
+  width: 300px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgb(121, 121, 121);
+  font-size: 0.9em;
+  margin-left: 20px;
+  padding: 40px 10px;
+  background: white;
+  letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover  {
+  color: #6B4C93;
+  background: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: white;
+  background-color: #6B4C93;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: -1px;
+  border-top: none;
+}
+
+.dropdown-menu>li>a,
+.dropdown-menu>li>a:hover {
+  color: #6B4C93;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+/*************************************************
+                    JUMBOTRON
+*************************************************/
+
+.jumbotron {
+  background: url(images/homepage-purse-bkg.jpg);
+  height: 600px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.dark-background {
+  padding: 0;
+  margin: 0;
+  height: 600px;
+  background: rgba(0,0,0,0.4)
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+  padding-top: 200px;
+  text-transform: uppercase;
+}
+
+.jumbotron h3 {
+  font-size: 1.2em;
+}
+
+.jumbotron button {
+  background: transparent;
+  width: 150px;
+  height: 45px;
+  font-size: 1.1em;
+  color: white;
+  margin-top: 30px;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+.jumbotron button:hover {
+  background: white;
+  color: #333;
+}
+
+/*************************************************
+                    QUOTE
+*************************************************/
+
+.quote {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.quote p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.table-background {
+  background: url(images/table-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 400px;
+}
+
+.table-background .dark-background {
+  height: 400px;
+}
+
+/*************************************************
+              FEATURED COLLECTION
+*************************************************/
+
+.featured-collection {
+  padding: 80px 0;
+  color: #888;
+  text-align: center;
+}
+
+.featured-collection hr {
+  color: #6B4C93;
+  background-color: #6B4C93;
+}
+
+.featured-collection img {
+  width: 100%;
+  margin-bottom: 50px;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.featured-collection p {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+/*************************************************
+              FEATURED PRODUCT
+*************************************************/
+
+.featured-product-banner {
+  background: url(images/coin-purse-bkg.jpg) fixed;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.featured-product-banner .dark-background {
+  height: 600px;
+}
+
+.featured-product-banner h1 {
+  font-size: 3em;
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+
+.featured-product-banner h3 {
+  : 300;
+  font-size: 1.2em
+}
+
+.featured-product-banner button {
+  background: transparent;
+  width: 150px;
+  height: 45px;
+  font-size: 1.1em;
+  color: white;
+  margin-top: 30px;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+.featured-product-banner button:hover {
+  background: white;
+  color: #333;
+}
+
+.featured-product {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.featured-product hr {
+  color: #6B4C93;
+  background-color: #6B4C93;
+}
+
+.featured-product img {
+  width: 100%;
+  margin-bottom: 50px;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.featured-product p {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+/*************************************************
+            UPCOMING SHOWS BANNER
+*************************************************/
+
+.upcoming-shows-banner {
+  background: url(images/upcoming-shows-banner.jpg) fixed;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.upcoming-shows-banner .dark-background {
+  height: 500px;
+  background: rgba(0,0,0,0.6)
+
+}
+
+.upcoming-shows-banner h1 {
+  font-size: 3em;
+  margin-top: 150px;
+  text-transform: uppercase;
+}
+
+.upcoming-shows-banner h3 {
+  : 300;
+  font-size: 1.2em
+}
+
+.upcoming-shows-banner button {
+  background: transparent;
+  width: 200px;
+  height: 45px;
+  font-size: 1.1em;
+  color: white;
+  margin-top: 30px;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+.upcoming-shows-banner button:hover {
+  background: white;
+  color: #333;
+}
+
+/*************************************************
+                    FOOTER
+*************************************************/
+
+.footer {
+  padding: 20px 0;
+  border-top: 1px solid #ddd
+}
+
+.footer h4 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.footer hr {
+  width: 100%;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.main-menu ul{
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu ul li {
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.form-group label {
+  display: none;
+}
+
+.form-group input,
+.form-group textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 80px;
+}
+
+.form-group .btn-default {
+  width: 30%;
+}
+
+.form-group .btn-default:hover {
+  background: rgba(87, 71, 150, 0.3);
+}
+
+.social {
+  color: #6B4C93;
+  text-align: center;
+}
+
+.social a {
+  color: inherit;
+}
+
+.social span {
+  font-size: 2em;
+  margin: 5px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #6B4C93;
+  color: #fff;
+  margin: 0;
+  padding: 5px;
+}
+
+.copyright p {
+  font-size: 0.9em;
+  margin-top: 7px;
+}
+
+/*purple
+color: #6B4C93;
+*/
