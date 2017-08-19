@@ -391,14 +391,12 @@
           <h4>Contact</h4>
           <hr>
           <div class="form-group">
-            <form action="mailto:jrcreations@hotmail.com" method='post' enctype='text/plain'>
-              <label for="name">Name</label>
-              <input type="text" id='name' placeholder='Name' required>
-              <label for="email">Email</label>
-              <input type="email" id='email' placeholder='Email' required>
-              <label for="message">Message</label>
-              <textarea id='message' placeholder='Message' required></textarea>
-              <input class='btn btn-default' type="submit">
+            <form action="https://formspree.io/jrcreations@hotmail.ca" method="POST">
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="email" name="_replyto" placeholder="Email" required>
+              <input type="text" name="_subject" placeholder="Subject" required>
+              <textarea type="text" name="message" id="message" placeholder="Message" required></textarea>
+              <input type="submit" value="Send" class='btn btn-default'>
             </form>
           </div>
         </div>
