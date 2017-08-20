@@ -142,6 +142,10 @@ hr {
   text-transform: uppercase;
 }
 
+.products .price {
+  text-transform: lowercase;
+}
+
 .item {
   text-align: center;
 }
