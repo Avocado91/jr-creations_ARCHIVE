@@ -289,6 +289,31 @@ hr {
   margin-top: 7px;
 }
 
+
+
+
+/************************************************************************
+                            MEDIA QUERIES
+************************************************************************/
+
+@media only screen and (max-width: 1199px) {
+
+  .navbar-default .navbar-brand img,
+  .navbar-default .navbar-brand:focus img,
+  .navbar-default .navbar-brand:hover img {
+    width: 250px;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
 /*purple
 color: #6B4C93;
 */
