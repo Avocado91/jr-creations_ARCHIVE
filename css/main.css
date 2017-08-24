@@ -406,12 +406,25 @@ hr {
   .navbar-default .navbar-brand:hover img {
     width: 250px;
   }
-
 }
 
 @media only screen and (max-width: 991px) {
+  .navbar-default .navbar-brand img,
+  .navbar-default .navbar-brand:focus img,
+  .navbar-default .navbar-brand:hover img {
+    width: 200px;
+    margin-top: 10px;
+  }
 
+  .navbar-default .navbar-nav>li>a {
+    color: rgb(121, 121, 121);
+    font-size: 0.8em;
+    margin-left: 0;
+  }
 }
+
+
+
 
 @media only screen and (max-width: 767px) {
 
